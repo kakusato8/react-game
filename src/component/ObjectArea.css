@@ -1,0 +1,34 @@
+.objectArea-left-body{
+    height: 500px;
+    width: 500px;
+    z-index: 50;
+    background-size: cover; /* to cover the entire container */
+    background-position: center; /* to center the image */
+    background-repeat: no-repeat; /* to avoid repeating the image */
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.objectArea-center-body{
+    height: 500px;
+    width: 500px;
+    z-index: 50;
+    background-size: cover; /* to cover the entire container */
+    background-position: center; /* to center the image */
+    background-repeat: no-repeat; /* to avoid repeating the image */
+    position: absolute;
+    top: 100px; /* 中央からの上の位置 */
+    left: 50%; /* 中央からの左の位置 */
+    transform: translate(-50%, 0%); /* 自身の高さと幅の50%を引く */
+}
+.objectArea-right-body{
+    height: 500px;
+    width: 500px;
+    z-index: 50;
+    background-size: cover; /* to cover the entire container */
+    background-position: center; /* to center the image */
+    background-repeat: no-repeat; /* to avoid repeating the image */
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}

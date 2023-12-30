@@ -1,0 +1,35 @@
+.com-button {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px; /* ボタン幅 */
+    color: #4D9BC1; /* 文字色 */
+    border: 2px solid #4D9BC1; /* 線幅・種類・色 */
+    background: #fff; /* 背景色 */
+    padding: 1em 2em;
+    font-weight: bold; /* 文字の太さ */
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    margin: 10px;
+  }
+  
+  p.com-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* ボタンの文字色 */
+    background-color: #007bff; /* ボタンの背景色 */
+    border: none;
+    border-radius: 5px; /* 角の丸み */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+  /* マウスオーバーした際のデザイン */
+  .com-button:hover {
+    color: #fff; /* 文字色 */
+    background: #4D9BC1; /* 背景色 */
+    cursor: pointer;
+  }
+

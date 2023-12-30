@@ -1,0 +1,12 @@
+.soundToggleArea {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  border: 2px #000;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+/* App.css or a specific component's CSS */
+.endrollText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #fff;
+  }
+
+.text-scroll {
+  /* アニメーションの位置を設定 */
+  position: relative;
+  /* 画面外からスタートさせる */
+  bottom: -1000px;
+  /* アニメーションの設定 */
+  animation: scrollUp 15s linear;
+}
+
+/* アニメーションのキーフレームを定義 */
+@keyframes scrollUp {
+  0% {
+    bottom: -1000px; /* 開始位置（画面外） */
+  }
+  100% {
+    bottom: 100%; /* 終了位置（画面上部へ） */
+  }
+}
+
+
+
+
